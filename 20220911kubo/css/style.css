@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  color: navy;
+  color: rgb(13, 48, 114);
 }
 
 .logo {
