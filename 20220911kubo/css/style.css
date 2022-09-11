@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  color: navy;
+}
+
+.logo {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+.nav {
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+.menu {
+  list-style: none;
+}
+
+.list {
+  padding: 15px;
+  display: inline-block;
+}
+
+.content_img img {
+  position: relative;
+  margin: 50px 0 0 auto;
+  display:block;
+  width: 50%;
+  z-index: 10;
+}
+
+.content_p {
+  margin: -100px 0 0 auto;
+  display: block;
+  font-size: 60px;
+  top: 60%;
+  left: 0;
+  position: absolute;
+}
+
+.content_box {
+  background: rgb(13, 48, 114);
+  width: 950px;
+  height: 175px;
+  top: 65%;
+  left: 0;
+  position: absolute;
+  z-index: -10;
+}
